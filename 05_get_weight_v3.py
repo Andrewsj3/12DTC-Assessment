@@ -1,8 +1,7 @@
-"""get_weight_v2: This function asks user for a unit and a weight and checks
-that they are valid. Now checks units to see if they can be compared with each
-other.
+"""get_weight_v3: This function asks user for a unit and a weight and checks
+that they are valid. Now uses regex to parse the weight and unit in one line
 Written by Jack Andrews
-10/5/22
+16/5/22
 """
 
 import curses
